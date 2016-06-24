@@ -1,7 +1,7 @@
 $(function(){
 		let $input = $('textarea');
 		let $process = $('button');
-		let $outputBox = $('pre')
+		let $outputBox = $('pre');
 
 		$process.on('click', function(){
 		  let rawString = $input.val(); // GRAB INPUT
