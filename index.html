@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>A Simple Text Templating Engine</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<style type="text/css">
+		textarea {
+			width : 100%;
+			height : 600px;
+		}
+		pre {
+			height : 600px;
+		}
+		.header, .footer{
+			text-align: center
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class = 'container'>
+		<div class = 'header'>
+			<h1>A Simple Text Templating Engine</h1>
+		</div>
+		<div>
+			<div class = 'col-md-6'>
+				<textarea></textarea>
+			</div>
+			<div class = 'col-md-6'>
+				<pre></pre>
+			</div>
+		</div>
+			<div class = 'col-md-12 footer'>
+      	<button>Process</button>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script type="text/javascript" src = "app.js"></script>
+</body>
+</html>
